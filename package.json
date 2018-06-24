@@ -1,0 +1,20 @@
+{
+  "name": "enbuffer",
+  "version": "1.0.0",
+  "description": "Storage of object references pointing to uuid/version data objects, in-memory eventing database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/enbuffer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/enbuffer/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/enbuffer#readme"
+}
