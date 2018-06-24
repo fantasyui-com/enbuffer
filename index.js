@@ -29,7 +29,7 @@ module.exports = function(options){
        return db.get(uuid);
      },
     all: function(path){
-      return Array.from(track.get(path)).map(id=>db.get(id))
+      return track.has(path)?Array.from(track.get(path)).map(id=>db.get(id)):[];
      },
   };
 
