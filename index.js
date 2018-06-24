@@ -30,8 +30,6 @@ module.exports = function(options){
      },
     all: function(path){
       return Array.from(track.get(path)).map(id=>db.get(id))
-
-       return Array.from(db);
      },
   };
 
