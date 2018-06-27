@@ -29,7 +29,8 @@ module.exports = function(options){
        return db.get(uuid);
      },
     all: function(path){
-      return track.has(path)?Array.from(track.get(path)).map(id=>db.get(id)):[];
+      const all = track.has(path)?Array.from(track.get(path)).map(id=>db.get(id)):[];
+      return all.filter(i=> !!(i.deleted) === false )
      },
   };
 
