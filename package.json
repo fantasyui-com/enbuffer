@@ -4,14 +4,15 @@
   "description": "Storage of object references pointing to uuid/version data objects, in-memory eventing database.",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fantasyui-com/enbuffer.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fantasyui-com/enbuffer/issues"
