@@ -1,6 +1,6 @@
 {
   "name": "enbuffer",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Storage of object references pointing to uuid/version data objects, in-memory eventing database.",
   "main": "index.js",
   "scripts": {
